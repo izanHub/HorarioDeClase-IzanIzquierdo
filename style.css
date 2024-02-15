@@ -1,0 +1,65 @@
+* {
+    font-family: Consolas;
+    text-align: center;
+}
+
+h1{
+  color: white;
+}
+/*El atributo border sirve para añadirle un borde a la tabla, del tamaño y color que le indiquemos*/
+/*El atriburo border-collapse sirve para indicarle que los bordes de las tablas deben colapsar o no segun lo que le indiquemos*/
+/*El atributo text-align sirve para indicarle en que parte de la celda debe esta el texto*/
+/*El atributo Widht se utiliza para establecer el ancho del elemento al que se lo aplicamos*/
+/*El atributo Background-color sirve para poner un color de fondo a las celdas del atributo que le indicamos*/
+table{
+    width: 100%;
+    text-align:center;
+    border: 2px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    font-size: 20px;
+}
+th, td {
+  line-height: 3 ;
+}
+
+  .Horas{
+    color: white;
+  }
+  .encabezado{
+    color: white;
+  }
+  .M7{
+    background-color: #FFC300;
+  }
+  .M12{
+    background-color: #FF6666;
+  }
+  .M13{
+    background-color: violet;
+  }
+  .M4{
+    background-color: green;
+  }
+  .M6{
+    background-color: aqua;
+  }
+  .Tuto{
+    background-color: aquamarine;
+  }
+  .M8{
+    background-color: dodgerblue;
+  }
+  .M11{
+    background-color: olive;
+  }
+  .Pati{
+    background-color: gray;
+  }
+  .vacio {
+    background-color: black;
+  } 
+
+
+  .fondo{
+    background-image: url(./img/estrellas.png);
+  }
